@@ -22,14 +22,14 @@ body{
     font-family:barlow,sans-serif;
 }
 .img-container{
-    /* height: 100vh;
+    height: 100vh;
     width:100%;
-    background-image: url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142385/picture_2_clvpku.jpg");
+    /* background-image: url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142385/picture_2_clvpku.jpg"); */
     background-size:cover;
     background-position:center;
-    background-repeat:no-repeat;     */
-    height: 450px; /* You can change this value to control the height */
-    width: 650px; /* You can change this value to control the width */
+    background-repeat:no-repeat;    
+    /* height: 450px; 
+    width: 650px;  */
     /* background-image: url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142385/picture_2_clvpku.jpg"); */
     background-size: cover;
     background-position: center;
@@ -50,28 +50,28 @@ body{
 @keyframes animate{
 
     0%{
-        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142392/picture_3_ty2dmc.jpg")
+        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726569132/gettyimages-1434983917-640x640_beby8h.jpg")
     }
     20%{
-        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142400/picture_4_igg0bc.jpg")
+        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726569255/gettyimages-1212320439-612x612_vramr6.jpg")
     }
     40%{
-        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726487340/picture_1_qablhw.jpg")
+        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726569465/gettyimages-957150296-612x612_fvqmud.jpg")
     }
     60%{
-        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726487848/picture1_fsk6yn.jpg")
+        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726569455/gettyimages-1385112692-640x640_mmgbdq.jpg")
     }
     80%{
-        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726487952/picture2_pxttjq.png")
+        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726569476/gettyimages-1167998692-612x612_tqvycn.jpg")
     }100%{
-        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726488037/picture3_pya0fb.jpg")
+        background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726569465/gettyimages-957150296-612x612_fvqmud.jpg")
     }
 }
 
 @media screen and (min-width: 480px) {
     .img-container{
-        height: 250px; /* You can change this value to control the height */
-        width: 350px; /* You can change this value to control the width */
+        height: 100vh; 
+        width: 100%; 
         /* background-image: url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142385/picture_2_clvpku.jpg"); */
         background-size: cover;
         background-position: center;
@@ -96,7 +96,9 @@ body{
   }
   .card-text{
     font-family:barlow,sans-serif; 
-    font-size: 15px;
+    font-style: oblique;
+    font-size: 17px;
+
   }
   .text-items-alignment{
     display: flex;
