@@ -37,6 +37,7 @@ body{
     margin: 10px auto; /* Center the container horizontally */
     border: 2px solid #000; /* Optional: Add a border for visibility */
     transition:5s;
+    opacity: 0.8;
 
     animation-name:animate;
     animation-direction:alternate-reverse;
@@ -98,7 +99,6 @@ body{
     font-family:barlow,sans-serif; 
     font-style: oblique;
     font-size: 17px;
-
   }
   .text-items-alignment{
     display: flex;
