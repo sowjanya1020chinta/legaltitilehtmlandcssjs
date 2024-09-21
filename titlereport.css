@@ -4,7 +4,6 @@ body{
     font-size:14px;
     font-family:Barlow, sans-serif !important;
 }
-/*A title Invstigation company*/
 .title-heading{
     font-size: 18px;
     font-family: barlow, sans-serif;
@@ -22,20 +21,15 @@ body{
     font-family:barlow,sans-serif;
 }
 .img-container{
+   
     height: 100vh;
     width:100%;
     /* background-image: url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142385/picture_2_clvpku.jpg"); */
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;    
-    /* height: 450px; 
-    width: 650px;  */
-    /* background-image: url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142385/picture_2_clvpku.jpg"); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 10px auto; /* Center the container horizontally */
-    border: 2px solid #000; /* Optional: Add a border for visibility */
+    margin: 10px auto;
+    border: 2px solid #000;  
     transition:5s;
     opacity: 0.8;
 
@@ -48,6 +42,25 @@ body{
     animation-timing-function:ease-in-out;
 
 }
+
+/* Responsive behavior */
+@media screen and (min-width: 480px) {
+    .img-container {
+        height: 100vh;
+        width: 100%;
+        transition: 5s;
+    }
+
+    .img-overlay {
+        background-color: rgba(0, 0, 0, 0.6); /* Increase transparency on larger screens */
+    }
+}
+@media screen and (min-width: 768px) {
+    .img-overlay {
+        background-color: rgba(0, 0, 0, 0.7); /* Further increase transparency on larger screens */
+    }
+}
+
 @keyframes animate{
 
     0%{
@@ -68,29 +81,15 @@ body{
         background-image:url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726569465/gettyimages-957150296-612x612_fvqmud.jpg")
     }
 }
-
-@media screen and (min-width: 480px) {
-    .img-container{
-        height: 100vh; 
-        width: 100%; 
-        /* background-image: url("https://res.cloudinary.com/dvpstnioo/image/upload/v1726142385/picture_2_clvpku.jpg"); */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 20px auto; /* Center the container horizontally */
-        border: 2px solid #000; /* Optional: Add a border for visibility */
-        transition: 5s;
-    }
-  }
-  .wrap{
-    color: white; 
-    border-right: 0.08em solid white;
-    font-family:Barlow, sans-serif !important;
-    text-align:center;
-  }
   .typeWriting-page-text{
     text-align:center;
     font-size:20px;
+  }
+  .wrap{
+    color: #fff; 
+    border-right: 0.08em solid white;
+    font-family:Barlow, sans-serif !important;
+    text-align:center;
   }
   .card-color{
     background-color:black;
